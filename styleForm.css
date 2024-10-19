@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    height: 5rem;
+}
+.containerForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2rem;
+    height: 400px;
+
+}
+
+.formulaire{
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    /* height: 500px; */
+}
+
+.formulaire label {
+    display:inline-block;
+    margin: 3px 0 5px;
+}
+
+.formulaire input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulaire button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulaire button:hover {
+    background-color: #0056b3;
+}
+
+
+.phone-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.prefix {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    margin:0 2px 0 0;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding: 5px;
+    border-radius: 2px 0 0 4px;
+}
+
+/* ============Checkbox============= */
+.check-box{
+    /* border:2px solid rgb(65, 3, 65); */
+    /* padding:5px; */
+    width:100%;
+    margin-top:1rem;
+}
+
+.content-label{
+    display:inline-flex;
+    align-items: center;
+    padding: 0.3em;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 0.3em;
+}
+
+
+.content-label input{
+    margin-top: 1em;
+}
+
+.entreprise-info{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.id-wrapper {
+    display: flex;
+}
+
+
+.entreprise-info input{
+    width: 193px;
+}
+
+.entreprise-info-2 input{
+    width: 270px;
+}
+
+.flex-content-1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flex-content-1 input{
+width: 45%;
+}
+
+.flex-content-2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-content-2 input{
+    width:45%;
+}
+
+.content-label-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-label-2 input{
+    display: inline-flex;
+    width: fit-content;
+
+}
+
+/* =============SLIDER============== */
+
+header{
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    /* border: 1px solid slateblue; */
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.page-num{
+    border: 1px solid skyblue;
+    border-radius: 60%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.page-form {
+    display: none;
+}
+
+.page-form.active {
+    display: block;
+
+}
+
+.active{
+    color: #fff;
+    background-color: rgb(26, 109, 101);
+}
+
+button {
+    margin-top: 20px;
+    padding: 5px;
+}
